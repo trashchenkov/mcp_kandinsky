@@ -1,6 +1,6 @@
 [project]
 name = "mcp_kandinsky"
-version = "0.1.0"
+version = "0.2.0"
 description = "MCP сервер для генерации изображений через Kandinsky API"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -18,8 +18,8 @@ dependencies = [
 mcp-kandinsky = "mcp_kandinsky.server:run"
 
 [project.urls]
-Homepage = "https://github.com/trashchenkov/mcp_kandinsky"
-Repository = "https://github.com/trashchenkov/mcp_kandinsky"
+Homepage = "https://github.com/ai-forever/mcp_kandinsky"
+Repository = "https://github.com/ai-forever/mcp_kandinsky"
 
 [build-system]
 requires = ["setuptools>=61.0"]

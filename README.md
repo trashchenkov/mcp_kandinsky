@@ -1,6 +1,6 @@
 # MCP Kandinsky
 
-MCP Kandinsky — это MCP (Model Context Protocol) сервер, предоставляющий инструмент для генерации изображений с помощью нейросети [Kandinsky](https://www.sberbank.com/promo/kandinsky/) через официальный API.
+MCP Kandinsky — это MCP (Model Context Protocol) сервер, предоставляющий инструмент для генерации изображений с помощью нейросети Kandinsky через официальный API.
 
 ## Возможности
 - Генерация изображений по текстовому описанию (prompt)
@@ -17,6 +17,9 @@ MCP Kandinsky — это MCP (Model Context Protocol) сервер, предос
 - `KANDINSKY_SECRET_KEY` — ваш Secret-ключ
 
 Получить авторизационные данные можно после регистрации на сайте [FUSION BRAIN](https://fusionbrain.ai/), перейдя в раздел API.
+
+### Тарифы
+Kandinsky API предоставляет бесплатный тариф с лимитом **100 запросов в месяц**. Подробнее о тарифах и возможностях можно узнать на [странице для разработчиков](https://fusionbrain.ai/developers/).
 
 ## Как подключить MCP Kandinsky к агенту (Cursor, Windsurf и др.)
 Добавьте MCP-сервер в конфиг агента, например, в файл `.cursor/mcp.json` или аналогичный для вашей IDE:
@@ -92,4 +95,4 @@ Response
 
 ## Лицензия
 
-Этот проект распространяется под лицензией MIT. 
+Этот проект распространяется под лицензией MIT. См. файл LICENSE для подробностей. 
